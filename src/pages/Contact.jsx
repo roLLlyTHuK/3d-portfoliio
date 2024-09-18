@@ -8,6 +8,7 @@ const Contact = () => {
     const formRef = useRef(null);
     const [form, setForm] = useState({ name: ``, email: ``, message: `` });
     const [isLoading, setIsLoading] = useState(false);
+    const [currentAnimations, setCurrentAnimations] = useState('idle');
 
     const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
@@ -15,6 +16,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setIsLoading(true);
+        setCurrentAnimations('hit');
 
         emailjs.send(
             import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -27,21 +29,22 @@ const Contact = () => {
                 message: form.message,
             },
             import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
-        )
-
-            .then(() => {
-                setIsLoading(false);
-                alert("Thank you. I will get back to you as soon as possible.");
+        ).then(() => {
+            setIsLoading(false);
+            alert("Thank you. I will get back to you as soon as possible.");
+            setTimeout(() => {
                 setForm({ name: ``, email: ``, message: `` });
-            })
-            .catch((error) => {
-                setIsLoading(false);
-                alert("Something went wrong. Please try again later.");
-                console.log('FAILED...', error);
-            });
+                setCurrentAnimations('idle');
+            }, 2000);
+        }).catch((error) => {
+            setIsLoading(false);
+            setCurrentAnimations('idle');
+            alert("Something went wrong. Please try again later.");
+            console.log('FAILED...', error);
+        });
     };
-    const handleFocus = () => { };
-    const handleBlur = () => { };
+    const handleFocus = () => setCurrentAnimations('walk');
+    const handleBlur = () => setCurrentAnimations('idle');
 
     return (
         <section className="relative flex lg:flex-row flex-col max-container">
@@ -121,6 +124,7 @@ const Contact = () => {
                             position={[0.5, 0.35, 0]}
                             rotation={[12.6, -0.6, 0]}
                             scale={[0.5, 0.5, 0.5]}
+                            currentAnimation={currentAnimations}
                         />
                     </Suspense>
                 </Canvas>
