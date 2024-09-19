@@ -17,7 +17,7 @@ const renderContent = {
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
             Hi, I am <span className='font-semibold'>Andrii</span> 👏
             <br />
-            A Fullstack Developer from Ukraine.
+            A Fullstack Developer based in Ukraine.
         </h1>
     ),
     2: (
@@ -29,7 +29,7 @@ const renderContent = {
     ),
     3: (
         <InfoBox
-            text='Take a look at some of my projects.'
+            text='Take a look at the projects I`ve developed myself or participated in developing '
             link='/projects'
             btnText='Visit my portfolio'
         />
