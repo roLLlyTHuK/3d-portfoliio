@@ -1,4 +1,4 @@
-import { frog } from "../assets/images";
+import { frog, law, self, wego } from "../assets/images";
 import {
     contact,
     css,
@@ -112,11 +112,11 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: frog,
+        title: "Chief specialist in IT department",
+        company_name: "Kyiv Court of Appeal",
+        icon: law,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "October 2014 - March 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -125,11 +125,11 @@ export const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: frog,
+        title: "Freelance Frontend Developer",
+        company_name: "Selfemployed",
+        icon: self,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2023 - April 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -139,10 +139,10 @@ export const experiences = [
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
+        company_name: "IT-Frogs",
         icon: frog,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "May 2023 - Jan 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,11 +151,24 @@ export const experiences = [
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: frog,
+        title: "Frontend React Developer",
+        company_name: "WeGO",
+        icon: wego,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Feb 2024 - April 2024",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Freelance Fullstack Developer",
+        company_name: "Selfemployed",
+        icon: self,
+        iconBg: "#fbc3bc",
+        date: "May 2024 - present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
