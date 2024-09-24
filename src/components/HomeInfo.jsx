@@ -22,7 +22,7 @@ const renderContent = {
     ),
     2: (
         <InfoBox
-            text='I am currently working as a Frontend Developer at freelance'
+            text='I am currently working as a self-employed fullstack developer'
             link='/about'
             btnText='About me'
         />
