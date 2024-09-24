@@ -1,9 +1,7 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { frog } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,15 +13,18 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    bookshelf,
+    cz,
+    water,
+    weather,
+    yachts,
+    campers,
+
 } from "../assets/icons";
 
 export const skills = [
@@ -113,7 +114,7 @@ export const experiences = [
     {
         title: "React.js Developer",
         company_name: "Starbucks",
-        icon: starbucks,
+        icon: frog,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
@@ -126,7 +127,7 @@ export const experiences = [
     {
         title: "React Native Developer",
         company_name: "Tesla",
-        icon: tesla,
+        icon: frog,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
@@ -139,7 +140,7 @@ export const experiences = [
     {
         title: "Web Developer",
         company_name: "Shopify",
-        icon: shopify,
+        icon: frog,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
         points: [
@@ -152,7 +153,7 @@ export const experiences = [
     {
         title: "Full stack Developer",
         company_name: "Meta",
-        icon: meta,
+        icon: frog,
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [
@@ -184,45 +185,51 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: bookshelf,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Bookshelf Web App',
+        description: 'Team project. A website with a responsive layout, included auth, filters, add book to wishlist. Role: SCRUM Master, developer. Worked on header/modal/authorization. Stack: HTML, CSS, JavaScript, REST API, Firebase.',
+        link: 'https://github.com/roLLlyTHuK/BookShelf',
+        liveLink: 'https://rolllythuk.github.io/BookShelf'
     },
     {
-        iconUrl: threads,
+        iconUrl: yachts,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Yachts Adventure',
+        description: 'Team project. A website with a pesponsive layout. Role: SCRUM Master, developer. Worked on gallery section/page animations. Stack: HTML, CSS, JavaScript, AOS, Swiper',
+        link: 'https://github.com/roLLlyTHuK/yachts-adventures',
+        liveLink: 'https://bonny-art.github.io/project-tp-01'
     },
     {
-        iconUrl: car,
+        iconUrl: cz,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Daycare center Landing Page',
+        description: 'Individual project. A landing page with a pesponsive layout for daycare center. Stack: HTML, CSS, JavaScript, AOS, Swiper',
+        link: 'https://github.com/roLLlyTHuK/cz_v2',
+        liveLink: 'https://charivne-zerniatko.netlify.app'
     },
     {
-        iconUrl: snapgram,
+        iconUrl: water,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Water Tracker App',
+        description: 'Team project. Healthy app for tracking water intake. Role: SCRUM Master, frontend developer. Worked on state management, API, modals, animation, loader, error page, authorisations form, services, ratio panel, notifications. Stack: React, Styled- components, Framer Motion, Redux Toolkit, Node, Express, MongoDB, Swagger, Vite.',
+        link: 'https://github.com/roLLlyTHuK/WaterTrackerFrontend',
+        liveLink: 'https://nadiiapavliuchenko.github.io/WaterTrackerFrontend/'
     },
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
+        iconUrl: campers,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        name: 'Rent Campers App',
+        description: 'Individual project. App for rent campers company(no responsive). Stack: React, Styled-components, Redux Toolkit, REST Api, Vite.',
+        link: 'https://github.com/roLLlyTHuK/test-campers',
+        liveLink: 'https://rolllythuk.github.io/test-campers/'
+    },
+    {
+        iconUrl: weather,
+        theme: 'btn-back-black',
+        name: 'Weather Forecast Hero Page',
+        description: 'Individual project. Hero page for weather forecast. Stack: HTML, CSS, JavaScript.',
+        link: 'https://github.com/roLLlyTHuK/lens_effect',
+        liveLink: 'https://rolllythuk.github.io/lens_effect/'
+    },
 ];

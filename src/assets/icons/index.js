@@ -16,16 +16,17 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
-import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import bookshelf from './bookshelf.svg'
+import cz from './cz.svg'
+import water from './water.svg'
+import weather from './weather.svg'
+import yachts from './yachts.svg'
+import campers from './campers.svg'
 
 export {
     css,
@@ -46,14 +47,14 @@ export {
     typescript,
     linkedin,
     twitter,
-    car,
-    estate,
-    pricewise,
-    snapgram,
-    summiz,
-    threads,
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    bookshelf,
+    cz,
+    water,
+    weather,
+    yachts,
+    campers
 }

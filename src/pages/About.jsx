@@ -34,7 +34,7 @@ const About = () => {
             <div className="py-16">
                 <h3 className="subhead-text">Work Experience</h3>
                 <div className="mt-5 flex flex-col gap-3 text-slate-500">
-                    <p>I'm a switcher. I have several qualifications and have worked in medicine, law and IT. But I have always been fascinated by programming. And as a result I chose the development of websites and web applications.</p>
+                    <p>I'm a switcher. I have several qualifications and have worked in medicine, law and IT. But I have always been fascinated by programming. And as a result I choose the development of websites and web applications.</p>
                 </div>
                 <div className="mt-12 flex">
                     <VerticalTimeline>

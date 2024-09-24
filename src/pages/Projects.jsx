@@ -42,7 +42,22 @@ const Projects = () => {
                                     rel="noopener noreferrer"
                                     className="font-semibold text-blue-500"
                                 >
-                                    Live Link
+                                    Code Link
+                                </Link>
+                                <img
+                                    src={arrow}
+                                    alt="arrow"
+                                    className="w-4 h-4 object-contain"
+                                />
+                            </div>
+                            <div className=" flex items-center gap-2 font-poppins">
+                                <Link
+                                    to={project.liveLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="font-semibold text-blue-500"
+                                >
+                                    Demo Link
                                 </Link>
                                 <img
                                     src={arrow}
@@ -51,6 +66,7 @@ const Projects = () => {
                                 />
                             </div>
                         </div>
+
                     </div>
                 ))}
             </div>
