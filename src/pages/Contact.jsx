@@ -51,7 +51,7 @@ const Contact = () => {
     const handleBlur = () => setCurrentAnimations('idle');
 
     return (
-        <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
+        <section className="relative flex lg:flex-row flex-col max-container h-[100dvh]">
 
             {alert.show && <Alert {...alert} />}
 

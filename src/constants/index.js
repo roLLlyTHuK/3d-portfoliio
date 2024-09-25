@@ -24,7 +24,7 @@ import {
     weather,
     yachts,
     campers,
-
+    telegram,
 } from "../assets/icons";
 
 export const skills = [
@@ -118,10 +118,10 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "October 2014 - March 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Assurance of user workstation availability.",
+            "Timely troubleshooting of user and office equipment issues.",
+            "Implementing latest technologies and user training.",
+            "In - house software management and enhancement.",
         ],
     },
     {
@@ -131,8 +131,7 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Jan 2023 - April 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web sites using AI tools and other related technologies.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
@@ -157,7 +156,7 @@ export const experiences = [
         iconBg: "#a2d2ff",
         date: "Feb 2024 - April 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Next.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
@@ -173,7 +172,7 @@ export const experiences = [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Resolving technical issues and providing support to other developers.",
         ],
     },
 ];
@@ -187,13 +186,18 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/roLLlyTHuK',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
+        link: 'https://www.linkedin.com/in/andrii-dovhaniuk-ua',
+    },
+    {
+        name: 'Telegram',
+        iconUrl: telegram,
+        link: 'https://t.me/AndriyDovhaniuk',
+    },
 ];
 
 export const projects = [

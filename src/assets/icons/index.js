@@ -26,6 +26,8 @@ import water from './water.svg'
 import weather from './weather.svg'
 import yachts from './yachts.svg'
 import campers from './campers.svg'
+import telegram from './telegram.svg'
+import share from './share.svg'
 
 export {
     css,
@@ -46,6 +48,7 @@ export {
     typescript,
     linkedin,
     twitter,
+    telegram,
     arrow,
     contact,
     soundon,
@@ -55,5 +58,6 @@ export {
     water,
     weather,
     yachts,
-    campers
+    campers,
+    share
 }
