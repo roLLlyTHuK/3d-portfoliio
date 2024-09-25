@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import planeScene from '../assets/3d/plane.glb'
+import planeScene from '../assets/3d/plane2.glb'
 import { useAnimations, useGLTF } from '@react-three/drei'
 
 const Plane = ({ isRotating, ...props }) => {
@@ -9,9 +9,9 @@ const Plane = ({ isRotating, ...props }) => {
 
     useEffect(() => {
         if (isRotating) {
-            actions['Take 001'].play();
+            actions['Dynamic pose'].play();
         } else {
-            actions['Take 001'].stop();
+            actions['Dynamic pose'].stop();
         }
     }, [actions, isRotating])
 
